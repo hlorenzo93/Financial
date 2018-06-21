@@ -13,7 +13,7 @@ public class testOne extends Frame implements ActionListener {
 	
 	TextPrompt inputAmountPrompt;
 	
-	Image image;
+	ImageGraphics images;
 	
 	   public testOne () {
 		   frame = new JFrame("Sample");
@@ -21,7 +21,8 @@ public class testOne extends Frame implements ActionListener {
 		   text1 = new JTextField("Amount");
 		   inputAmount= new JTextField(10);
 		   inputAmountPrompt = new TextPrompt("Enter the amount", inputAmount);
-		   image = new Image();
+		   images = new ImageGraphics();
+		 
 		   frame.setLayout(new FlowLayout());
 		   frame.setTitle("AWT Counter");  // "super" Frame sets its title
 		   frame.setSize(250, 250);        // "super" Frame sets its initial window size
@@ -39,6 +40,7 @@ public class testOne extends Frame implements ActionListener {
 		   
 		   frame.add(text1);
 		   frame.add(inputAmount);
+		   frame.add(images);
 	   }
 	
 	 
