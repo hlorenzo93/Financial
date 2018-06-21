@@ -1,0 +1,17 @@
+This program is for people who wants to control their expense with food, gas, goods, shopping, etc...
+
+In this program it will be able to organized the expense by type.
+
+You enter the amount and then add up in total.
+
+Introduce a calendar were the user can see the total amount expense per day, month and year.
+
+What will be the first activity? Graphic percentage of all the expense per type.
+
+Button at the right bottom corner, to start the second activity.
+
+In the second activity, theirs a textfield editable to enter new amount of expense per type.
+
+
+
+

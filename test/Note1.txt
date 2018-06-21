@@ -1,0 +1,4 @@
+1.
+Problem: The program doesnt close properly on the button "x" at the top right corner
+Solution: remove the frame code of the contructor, and put in the main method, with Frame.*
+
